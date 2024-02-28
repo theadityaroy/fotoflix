@@ -1,8 +1,13 @@
 import './App.css';
+import React from 'react';
+import Photos from './Components/Photos';
+import Favourites from './Components/Favourites';
 
 function App() {
   return (
-    <h1> Welcome to FotoFlix </h1>
+    <div>
+      Welcome to FotoFlix!
+    </div>
   );
 }
 
